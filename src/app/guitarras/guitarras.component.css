@@ -1,0 +1,23 @@
+
+.jumbo-gui{
+	text-align: center;
+	background-color: #fffaf4;
+ 	top: 50%; 
+  	transform: translateY(-50%);
+}
+
+.div-imagen{
+	margin:0;
+	padding: 2px;
+}
+
+.imagen-guitarra{
+	
+	width: 100%;
+	height: auto;
+}
+
+#relleno{
+	height: auto;
+	margin-bottom: 250px;
+}

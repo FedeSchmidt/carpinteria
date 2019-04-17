@@ -1,0 +1,175 @@
+{
+	"aberturas":[
+		{
+			"id":10,
+			"titulo":"TITULO 20",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/7/a11.jpg", "../../assets/images/7/a12.jpg", "../../assets/images/7/a13.jpg", "../../assets/images/7/a14.jpg","../../assets/images/7/a15.jpg"]
+		},
+		{
+			"id":11,
+			"titulo":"TITULO 20",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/9/a23.jpg", "../../assets/images/9/a22.jpg", "../../assets/images/9/a21.jpg", "../../assets/images/9/a24.jpg"]
+		},
+		{
+			"id":12,
+			"titulo":"TITULO 20",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/11/a31.jpg", "../../assets/images/11/a32.jpg", "../../assets/images/11/a33.jpg", "../../assets/images/11/a34.jpg", "../../assets/images/11/a35.jpg"]
+		}
+		
+	],
+	"cocina":[
+		{
+			"id":20,
+			"titulo":"TITULO 20",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/1/m110.jpg", "../../assets/images/1/m12.jpg", "../../assets/images/1/m13.jpg", "../../assets/images/1/m14.jpg","../../assets/images/1/m15.jpg", "../../assets/images/1/m16.jpg", "../../assets/images/1/m17.jpg","../../assets/images/1/m18.jpg", "../../assets/images/1/m19.jpg"]
+		},
+		{
+			"id":21,
+			"titulo":"TITULO 21",
+			"descripcion":"DESCRIPCION DEL TRABAJO 21.",
+			"imagenes":["../../assets/images/2/m21.jpg","../../assets/images/2/m22.jpg", "../../assets/images/2/m25.jpg", "../../assets/images/2/m26.jpg", "../../assets/images/2/m27.jpg","../../assets/images/2/m28.jpg","../../assets/images/2/m29.jpg", "../../assets/images/2/m210.jpg"]
+		},
+		{
+			"id":22,
+			"titulo":"TITULO 22",
+			"descripcion":"DESCRIPCION DEL TRABAJO 22.",
+			"imagenes":["../../assets/images/3/m31.jpg","../../assets/images/3/m32.jpg", "../../assets/images/3/m33.jpg", "../../assets/images/3/m34.jpg"]
+		},
+		{
+			"id":23,
+			"titulo":"TITULO 22",
+			"descripcion":"DESCRIPCION DEL TRABAJO 22.",
+			"imagenes":["../../assets/images/24/m41.jpg","../../assets/images/24/m42.jpg", "../../assets/images/24/m43.jpg", "../../assets/images/24/m44.jpg", "../../assets/images/24/m45.jpg"]
+		},
+		{
+			"id":24,
+			"titulo":"TITULO 22",
+			"descripcion":"DESCRIPCION DEL TRABAJO 22.",
+			"imagenes":["../../assets/images/25/m51.jpg","../../assets/images/25/m52.jpg", "../../assets/images/25/m53.jpg", "../../assets/images/25/m54.jpg", "../../assets/images/25/m55.jpg", "../../assets/images/25/m56.jpg"]
+		}
+	],
+	"placares":[
+		{
+			"id":30,
+			"titulo":"titulo 30",
+			"descripcion": "descripcion TRABAJO 30",
+			"imagenes":["../../assets/images/20/p11.jpg","../../assets/images/20/p12.jpg","../../assets/images/20/p13.jpg","../../assets/images/20/p14.jpg","../../assets/images/20/p15.jpg","../../assets/images/20/p16.jpg"]
+		},
+		{
+			"id":31,
+			"titulo":"titulo 30",
+			"descripcion": "descripcion TRABAJO 30",
+			"imagenes":["../../assets/images/19/p21.jpg","../../assets/images/19/p22.jpg","../../assets/images/19/p23.jpg","../../assets/images/19/p24.jpg", "../../assets/images/19/p25.jpg"]
+		},
+		{
+			"id":32,
+			"titulo":"titulo 30",
+			"descripcion": "descripcion TRABAJO 30",
+			"imagenes":["../../assets/images/18/p31.jpg","../../assets/images/18/p32.jpg","../../assets/images/18/p33.jpg","../../assets/images/18/p34.jpg","../../assets/images/18/p35.jpg","../../assets/images/18/p36.jpg","../../assets/images/18/p37.jpg"]
+		}
+	],
+	"escaleras":[{
+			"id":40,
+			"titulo":"TITULO 40",
+			"descripcion":"DESCRIPCION DEL TRABAJO 40.",
+			"imagenes":["../../assets/images/4/e11.jpg", "../../assets/images/4/e12.jpg", "../../assets/images/4/e13.jpg", "../../assets/images/4/e14.jpg","../../assets/images/4/e15.jpg"]
+		},
+		{
+			"id":41,
+			"titulo":"TITULO 41",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/5/e21.jpg", "../../assets/images/5/e22.jpg", "../../assets/images/5/e23.jpg", "../../assets/images/5/e24.jpg"]
+		},
+		{
+			"id":42,
+			"titulo":"TITULO 42",
+			"descripcion":"DESCRIPCION DEL TRABAJO 20.",
+			"imagenes":["../../assets/images/6/e34.jpg", "../../assets/images/6/e31.jpg", "../../assets/images/6/e32.jpg", "../../assets/images/6/e33.jpg", "../../assets/images/6/e36.jpg", "../../assets/images/6/e37.jpg", "../../assets/images/6/e38.jpg", "../../assets/images/6/e35.jpg"]
+		}
+
+	],
+	"mesas":[
+		{
+			"id":60,
+			"titulo":"titulo 60",
+			"descripcion":"descripcion del TRABAJO 60",
+			"imagenes":["../../assets/images/12/m11.jpg","../../assets/images/12/m12.jpg","../../assets/images/12/m13.jpg","../../assets/images/12/m14.jpg","../../assets/images/12/m15.jpg"]
+		},
+		{
+			"id":61,
+			"titulo":"titulo 60",
+			"descripcion":"descripcion del TRABAJO 60",
+			"imagenes":["../../assets/images/13/m21.jpg","../../assets/images/13/m22.jpg","../../assets/images/13/m23.jpg","../../assets/images/13/m24.jpg","../../assets/images/13/m25.jpg","../../assets/images/13/m26.jpg","../../assets/images/13/m27.jpg","../../assets/images/13/m28.jpg","../../assets/images/13/m29.jpg"]
+		},
+		{
+			"id":62,
+			"titulo":"titulo 60",
+			"descripcion":"descripcion del TRABAJO 60",
+			"imagenes":["../../assets/images/14/m31.jpg","../../assets/images/14/m32.jpg","../../assets/images/14/m33.jpg","../../assets/images/14/m34.jpg"]
+		},
+		{
+			"id":63,
+			"titulo":"titulo 60",
+			"descripcion":"descripcion del TRABAJO 60",
+			"imagenes":["../../assets/images/15/m41.jpg","../../assets/images/15/m42.jpg"]
+		}
+	],
+	"torneado":[
+		{
+			"id":50,
+			"titulo": "titulo 50",
+			"descripcion": "DESCRIPCION del TRABAJO 50",
+			"imagenes": ["../../assets/images/10/t11.jpg", "../../assets/images/10/t13.jpg", "../../assets/images/10/t16.jpg", "../../assets/images/10/t14.jpg","../../assets/images/10/t15.jpg","../../assets/images/10/t12.jpg"]
+		},
+		{
+			"id":51,
+			"titulo":"titulo 60",
+			"descripcion":"descripcion del TRABAJO 60",
+			"imagenes":["../../assets/images/16/t21.jpg","../../assets/images/16/t22.jpg","../../assets/images/16/t23.jpg","../../assets/images/16/t24.jpg"]
+		},
+		{
+			"id":52,
+			"titulo":"titulo 52",
+			"descripcion": "descripcion TRABAJO 52",
+			"imagenes":["../../assets/images/17/t31.jpg","../../assets/images/17/t32.jpg","../../assets/images/17/t33.jpg","../../assets/images/17/t34.jpg","../../assets/images/17/t35.jpg","../../assets/images/17/t36.jpg","../../assets/images/17/t37.jpg","../../assets/images/17/t38.jpg","../../assets/images/17/t39.jpg","../../assets/images/17/t310.jpg"]
+		}
+	],
+	"otros":[
+		{
+			"id":70,
+			"titulo": "titulo",
+			"descripcion": "descripcion TRABAJO",
+			"imagenes":["../../assets/images/21/o11.jpg","../../assets/images/21/o12.jpg","../../assets/images/21/o13.jpg","../../assets/images/21/o14.jpg","../../assets/images/21/o15.jpg"]
+		},
+		{
+			"id":71,
+			"titulo": "titulo",
+			"descripcion": "descripcion TRABAJO",
+			"imagenes":["../../assets/images/22/o21.jpg","../../assets/images/22/o22.jpg","../../assets/images/22/o23.jpg","../../assets/images/22/o24.jpg"]
+		},
+		{
+			"id":72,
+			"titulo": "titulo",
+			"descripcion": "descripcion TRABAJO",
+			"imagenes":["../../assets/images/26/o31.jpg","../../assets/images/26/o32.jpg","../../assets/images/26/o33.jpg","../../assets/images/26/o34.jpg", "../../assets/images/26/o35.jpg"]
+		}
+	], 
+	"tirantes":[
+		{
+			"imagenes":["../../assets/images/1/m110.jpg"],
+			"medidas":["una", "dos", "tres"]
+		}
+	],
+	"machimbre":[
+		{
+		"imagenes":["../../assets/images/1/m19.jpg"],
+		"medidas":["cuatro", "cinco", "seis"]
+		}
+	]
+		
+	
+}

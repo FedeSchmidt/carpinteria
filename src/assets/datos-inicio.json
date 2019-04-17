@@ -1,0 +1,36 @@
+
+	[
+		{
+			
+			"titulo":"Amoblamiento de Cocina" ,
+			"descripcion": "En nuestro taller realizamos amoblamientos de cocina a medida, considerando las necesidades de cada cliente y buscando la manera de satisfacerlas al máximo. Trabajamos con todo tipo de materiales, para lograr un producto que el cliente disfrute en su día a día, buscando no solo la funcionalidad perfecta sino también una estética agradable de acuerdo a los gustos de cada cliente.",			
+			"imagenes":["../../assets/images/cocina_index2.jpg"]
+		},
+		{
+			
+			"titulo":"Aberturas" ,
+			"descripcion":"Puertas, ventanas, portones, puertas balcón… realizamos todo tipo de aberturas, de las medidas necesarias para cada casa en particular. Trabajadas en todo tipo de madera, los productos que entregamos pueden pintarse o lustrarse, para que cumplan con el rol pretendido por el dueño de casa, pudiendo destacar a la vista en una habitación o un frente, o bien tomar una posición secundaria.",
+			"imagenes":["../../assets/images/aberturas_index.jpg"]
+		},
+		{
+			
+			"titulo":"Tirantería y Machimbre" ,
+			"descripcion":"Además de trabajos a medida, una de las características especiales de nuestro taller es que tenemos disponible para la venta un amplio stock en tirantería y machimbre. Traída directamente desde Misiones, tenemos productos de primera calidad, y de múltiples medidas, para que su vivienda sea construida con los mejores materiales del mercado. En esta web podrá encontrar una sección dedicada especialmente a estos productos, donde podrá encontrar imágenes y el detalle de las medidas que trabajamos.",
+			"imagenes":["../../assets/images/machimbre.jpg", "../../assets/images/cocina_index.jpg"]
+		},
+		
+		{
+			
+			"titulo":"Escaleras y Barandas" ,
+			"descripcion":"Construimos escaleras completamente de madera, como así también las partes necesarias para formar una escalera de interior a partir de una estructura metálica o de cemento. También se realizan barandas para balcón, torneadas, que permiten que el exterior de su casa se vea elegante a la vez que brindan la seguridad necesaria.",
+			"imagenes":["../../assets/images/escaleras_index.jpg"]
+		},	
+			
+		{
+			
+			"titulo":"Otros trabajos" ,
+			"descripcion":"Bibliotecas, placares, amoblamiento para baño, mesas y sillas, camas, muebles a medida en general. Cada trabajo que un cliente nos presenta se realiza con la mayor dedicación, prestando atención a los detalles, para que al momento de la entrega, el cliente quede satisfecho con el producto. Visite nuestra galería para encontrar más ejemplos y tomar ideas para su próxima compra.",
+			"imagenes":["../../assets/images/otros_index.jpg"]
+		}
+	
+	]

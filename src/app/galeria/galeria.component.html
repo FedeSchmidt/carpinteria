@@ -1,0 +1,53 @@
+<div class="row justify-content-around">
+	<div id="datos" class="col-12 col-xl-11 datos ml-1 mr-1">
+		<h3>{{ descripcion[1] }}</h3>
+		<p class="d-inline-block">{{ descripcion[2] }}</p>
+		<button id="botonVolver" type="button" class="btn btn-sm float-right" routerLink="/galeria"> <i class="fas fa-chevron-left"></i> Volver </button>
+	</div>
+	
+</div>
+
+
+<div  class="row justify-content-around">
+	<div id="productos" class="col-12 col-xl-11">
+
+		
+		<!--<div *ngIf="imagenes.length > 0 ; then thenBlock else elseBlock"></div>
+			
+		<ng-template #thenBlock>
+
+			<div class="datos">
+				<h3>{{ descripcion[1] }}</h3>
+				<p>{{ descripcion[2] }}</p>
+ 			</div>
+	
+
+			<div *ngIf="imagenes.length < 5" class="relleno"></div>
+		</ng-template>
+
+		<ng-template #elseBlock>
+			<p class="div-texto">No disponemos de imágenes de esta galería en este momento. <br> <br> Te invitamos a mirar las demás galerías de productos o a ponerte en <a routerLink="/contacto" (click)="click()">contacto</a> con nosotros.</p>
+		</ng-template>
+		
+-->
+
+
+	</div>
+
+	<div *ngIf="imagenes.length < 5" class="relleno">
+	</div>
+
+<div id="myModal" class="modal">
+
+  <i class="fas fa-times close"></i>
+
+  <i id="btn_izquierda" class="fas fa-chevron-left flecha" (click)="hallarAnterior()"></i>
+
+  <i id="btn_derecha" class="fas fa-chevron-right flecha" (click)="hallarSiguiente()"></i>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+</div>

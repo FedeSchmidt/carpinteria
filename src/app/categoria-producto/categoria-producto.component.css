@@ -1,0 +1,158 @@
+a{
+  color: black;
+  text-decoration: underline;
+}
+
+.no-flecha{
+  display:none;
+}
+
+.botonfiltro{
+  background-color: #dbc2a0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-width: 1px;
+  border-color: #fffaf4;
+}
+
+
+.relleno{
+  height: auto;
+  margin-bottom: 200px;
+}
+
+
+
+.activo{
+   outline: none !important;
+   box-shadow: none;
+   font-weight: bold;
+}
+
+.navbar{
+  padding: 0;
+  margin-left: 2px;
+}
+
+.navbar-toggler{
+  background-color: #dbc2a0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  font-weight: 400;
+  font-size: 20px;
+
+  padding: 7px;
+  
+  margin-bottom: 5px;
+  outline: none !important;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+
+
+
+.container2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+ 
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.2);
+  color: #f1f1f1; 
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  margin:0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.container2:hover .overlay2 {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 1200px){
+  .container2{
+    width: 25%;
+    /*margin: 0 3px;*/
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .container2{
+    width: 50%;
+    /*margin: 0 3px;*/
+    display: inline-block;
+  }
+}
+
+@media (max-width: 992px){
+
+  .container2{
+    margin-bottom: 6px;
+  }
+
+  .botonfiltro{
+    background-color: #fffaf4;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    border-color: #fffaf4;
+  }
+
+  .botonfiltro:focus,.botonfiltro:active {
+     border-color: #dbc2a0;
+     box-shadow: none;
+     font-weight: bold;
+     text-decoration: none;
+  }
+
+  
+
+
+  
+
+}
+
+@media (max-width: 940px){
+
+  .container2{
+    margin-bottom: 6px;
+  }
+
+
+}
+
+

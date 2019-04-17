@@ -1,0 +1,53 @@
+
+	[
+		{
+			"id":1,
+			"nombre":"Nombre del producto 1",
+			"breve_descr":"Descripcion breve del producto 1",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		}, 
+		{
+			"id":2,
+			"nombre":"Nombre del producto 2",
+			"breve_descr":"Descripcion breve del producto 2",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":3,
+			"nombre":"Nombre del producto 3",
+			"breve_descr":"Descripcion breve del producto 3",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":4,
+			"nombre":"Nombre del producto 4",
+			"breve_descr":"Descripcion breve del producto 4",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":5,
+			"nombre":"Nombre del producto 5",
+			"breve_descr":"Descripcion breve del producto 5",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":6,
+			"nombre":"Nombre del producto 6",
+			"breve_descr":"Descripcion breve del producto 6",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":7,
+			"nombre":"Nombre del producto 7",
+			"breve_descr":"Descripcion breve del producto 7",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		},
+		{
+			"id":8,
+			"nombre":"Nombre del producto 8",
+			"breve_descr":"Descripcion breve del producto 8",
+			"imagen":"../../assets/images/cocina_index.jpg"
+		}
+	
+	
+	]

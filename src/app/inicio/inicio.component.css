@@ -1,0 +1,14 @@
+/*------------  INICIO  ---------------*/
+.div-texto {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.div-texto h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.oscura {
+  background-color: #e6cdae;
+}

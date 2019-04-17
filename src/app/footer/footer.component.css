@@ -1,0 +1,52 @@
+.div-datos {
+
+	font-weight: bold;
+}
+
+p {
+
+	font-weight: bold;
+}
+
+
+
+
+a {
+  cursor: pointer;
+}
+
+.row-footer {
+	background-color: #e6cdae;
+	height: 170px;
+	bottom: 0%;
+	
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+.div-datos .volverArriba{
+	float: right;
+	
+}
+
+.div-datos .email{
+	display: inline-block;
+}
+
+
+@media  (max-width: 800px) {
+  .div-datos{
+   	text-align: center;
+  }
+  
+  .div-datos .email{
+	display: block;
+  }
+
+  .div-datos .volverArriba{
+  	display: block;
+  	
+
+  }
+}

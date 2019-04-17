@@ -1,0 +1,56 @@
+		<br>
+
+	<!-- VKDHzToQOA6X -->
+
+
+<div class="row justify-content-center">
+      <div class="col-12 col-xl-11 filtro">
+
+	    <nav class="navbar navbar-expand-lg">
+			  <button class="navbar-toggler" id="btnDropdown" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="clickDropdown()">Categorías <i class="fas fa-caret-down" id="flechaDown"></i><i class="fas fa-caret-up no-flecha" id="flechaUp"></i>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item"><button id="btnAberturas" type="button" class="btn botonfiltro" (click)="filtrar('aberturas', 'btnAberturas')">Aberturas</button></li>
+			      <li class="nav-item"><button id="btnCocina" type="button" class="btn botonfiltro" (click)="filtrar('cocina', 'btnCocina')">Cocina</button></li>
+			      <li class="nav-item"><button id="btnEscaleras" type="button" class="btn botonfiltro" (click)="filtrar('escaleras', 'btnEscaleras')">Escaleras</button></li>
+			      <li class="nav-item"><button id="btnMesas" type="button" class="btn botonfiltro" (click)="filtrar('mesas', 'btnMesas')">Mesas y Sillas</button></li>
+			      <li class="nav-item"><button id="btnPlacares" type="button" class="btn botonfiltro" (click)="filtrar('placares', 'btnPlacares')">Placares</button></li>
+			      <li class="nav-item"><button id="btnTorneado" type="button" class="btn botonfiltro" (click)="filtrar('torneado', 'btnTorneado')">Tallado y Torneado</button></li>
+			      <li class="nav-item"><button id="btnOtros" type="button" class="btn botonfiltro" (click)="filtrar('otros', 'btnOtros')">Otros productos</button></li>
+			      <li class="nav-item"><button id="btnTodos" type="button" class="btn botonfiltro" (click)="mostrarTodos()">Ver todos</button></li>
+			      
+			    </ul>
+			    
+			  </div>
+			</nav>
+
+  </div>
+    </div>
+
+
+
+<div class="row justify-content-around mt-2">
+	<div id="categoria-prod" class="col-12 col-xl-11 ">
+
+		<div *ngIf="productos.length > 0 ; then thenBlock else elseBlock"></div>
+			
+		<ng-template #thenBlock>
+		
+				<div *ngFor="let item of productos" class="container2">
+					<img src="{{ item[3] }}" class="image2">
+					<a [routerLink]="['/galeria', item[0]]" class="overlay2">
+						<h3 class="text"><i class="fas fa-plus"></i> Ver Galería</h3>
+					</a>
+				</div>
+
+			<div *ngIf="productos.length < 5" class="relleno"></div>
+		</ng-template>
+		<ng-template #elseBlock>
+			<p class="div-texto">No disponemos de trabajos de esta categoría en nuestro website en este momento. <br><br> Te invitamos a mirar las galerías de productos de las demás categorias o a ponerte en <a routerLink="/contacto" (click)="click()">contacto</a> con nosotros.</p>
+		</ng-template>
+		
+	</div>
+
+</div>
