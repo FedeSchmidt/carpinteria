@@ -10,8 +10,8 @@
          
             <div class="d-block">Teléfono: (0291) 488-8653</div>
             <div class="d-block">Dirección: Tucumán 3153 - Bahía Blanca</div>
-            <div class="d-block">Horario de Atención al Público: 8 - 12hs / 15 - 19hs</div>
-            <div class="d-block">Email: carpinteriaschmidt@hotmail.com</div>
+            <div class="d-block">Horario de Atención: 8 - 12hs / 15 - 19hs</div>
+            <div class="d-block">Correo: carpinteriaschmidt@hotmail.com</div>
             <div>
                 <a href="https://www.facebook.com/carpinteriade.omarschmidt" class="link"  target="_blank">Nuestro Facebook</a>
             </div>
@@ -22,38 +22,53 @@
             <br>
 
 
-
-            <form (ngSubmit)="onSubmit(contactoForm)" #contactoForm="ngForm">
+            <form [formGroup]="form" (ngSubmit)="onSubmit(contactoForm)" #contactoForm="ngForm">
                 
-                <div class="row justify-content-around">
-                
-                    <div class="col-12 col-md-6 d-inline-block">
-                      <label for="nombre">Nombre *</label>
-                      <input type="text" id="nombre" name="nombre" #nombre="ngModel" [(ngModel)]="mensaje.nombre" class="form-control" required>
-  
-                    </div>
+                    <div class="row justify-content-around">
                     
-                    <div class=" col-12 col-md-6 d-inline-block">
-                      <label for="apellido">Apellido *</label>
-                      <input type="text" id="apellido" name="apellido" #apellido="ngModel" [(ngModel)]="mensaje.apellido" class="form-control"  required>
-                    </div>
-  
+                        <div class="col-12 col-md-6 d-inline-block">
+                        <label for="nombre" class="control-label">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" [(ngModel)]="mensaje.nombre" class="form-control" formControlName="nombre">
+
+                       
+    
+                        </div>
+                        
+                        <div class=" col-12 col-md-6 d-inline-block">
+                        <label for="apellido" class="control-label">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido"  [(ngModel)]="mensaje.apellido" class="form-control"  formControlName="apellido">
+
+                        </div>
+    
                     </div>
             
                     <div class="mt-2">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" #email="ngModel" [(ngModel)]="mensaje.email" class="form-control" required>
+                        <label for="email" class="control-label">Email *</label>
+                        <input type="email" id="email" name="email"  [(ngModel)]="mensaje.email" class="form-control" formControlName="email">
+
+                       
                     </div>
 
+                    <div class="mt-2">
+                            <label for="telefono" class="control-label">Teléfono</label>
+                            <input type="text" id="telefono" name="telefono"  [(ngModel)]="mensaje.telefono" class="form-control" formControlName="telefono">
+    
+                           
+                        </div>
 
-                    <div class="mt-2"> <label for="mensaje">Su mensaje *</label><br>
-                        <textarea name="mensaje" class="form-control" id="mensaje" #consulta="ngModel" [(ngModel)]="mensaje.consulta" rows="7" required></textarea>
+
+                    <div class="mt-2"> <label for="mensaje" class="control-label">Su mensaje *</label><br>
+                        <textarea name="mensaje" class="form-control" id="mensaje" [(ngModel)]="mensaje.consulta" rows="7" formControlName="mensaje"></textarea>
+
+                     
+
+                        
                     </div>
 
                 
 
                     <div class="mt-2">
-                        <input id="botonEnviar" type="submit" value="ENVIAR" class="btn float-right">
+                        <input id="botonEnviar" type="submit" value="ENVIAR" class="btn float-right" [disabled]="!form.valid">
                     </div>
               </form>
 

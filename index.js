@@ -48,6 +48,7 @@ async function sendMail(mensaje, callback) {
 		subject: `Consulta Carpintería - ${emisor}`, // Subject line
 		html: `<h3>Consulta de ${emisor} a través de la página web.</h3>
         <h4>Email : ${mensaje.email}</h4>
+        <h4>Teléfono : ${mensaje.telefono !== '' ? mensaje.telefono : '-'}</h4>
         <h4>Consulta: </h4>
         <p>${mensaje.consulta}</p>`
 	};

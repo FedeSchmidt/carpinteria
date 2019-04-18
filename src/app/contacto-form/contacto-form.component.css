@@ -1,16 +1,15 @@
 .jumbotext {
-
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-h5{
+h5 {
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.div-contact label{
+.div-contact label {
 	font-weight: bold;
 }
 
@@ -19,24 +18,23 @@ h5{
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-#botonEnviar{
+#botonEnviar {
 	background-color: #dbc2a0;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-
 }
 
-#nuestrosDatos div{
-	margin:6px 0;
+#nuestrosDatos div {
+	margin: 6px 0;
 }
 
-#botonEnviar:focus, #botonEnviar:active{
-  outline: none !important;
-   box-shadow: none;
+#botonEnviar:focus,
+#botonEnviar:active {
+	outline: none !important;
+	box-shadow: none;
 }
 
-
-@media  (max-width: 992px) {
-  #nuestrosDatos {
-    margin-top: 25px;
-  }
+@media (max-width: 992px) {
+	#nuestrosDatos {
+		margin-top: 25px;
+	}
 }

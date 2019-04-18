@@ -15,15 +15,29 @@ import { Title } from '@angular/platform-browser';
 export class ContactoFormComponent implements OnInit {
 	public mensaje: Mensaje;
 	public status: string;
+	form: FormGroup;
 
-	constructor(private _route: ActivatedRoute, private _mensajeService: MensajeService, private titleService: Title) {
-		this.mensaje = new Mensaje('', '', '', '');
+	constructor(
+		private _route: ActivatedRoute,
+		private _mensajeService: MensajeService,
+		private titleService: Title,
+		private formBuilder: FormBuilder
+	) {
+		this.mensaje = new Mensaje('', '', '', '', '');
 		this.status = '';
 	}
 
 	ngOnInit() {
 		$('#contacto').css('textDecoration', 'underline');
 		this.titleService.setTitle('Carpinteria Schmidt | Contacto');
+
+		this.form = this.formBuilder.group({
+			nombre: [ '', Validators.required ],
+			apellido: [ '', Validators.required ],
+			email: [ '', [ Validators.required, Validators.email ] ],
+			telefono: [ '' ],
+			mensaje: [ '', Validators.required ]
+		});
 	}
 
 	onSubmit(form) {
@@ -34,7 +48,7 @@ export class ContactoFormComponent implements OnInit {
 		this._mensajeService.enviar(this.mensaje).subscribe(
 			(response) => {
 				if (response.status == 'success') {
-					this.mensaje = new Mensaje('', '', '', '');
+					this.mensaje = new Mensaje('', '', '', '', '');
 					this.status = 'success';
 					console.log('exito');
 					form.reset();
@@ -53,5 +67,7 @@ export class ContactoFormComponent implements OnInit {
 				this.status = 'error-api';
 			}
 		);
+
+		form.reset();
 	}
 }
