@@ -1,115 +1,28 @@
 <div  class="row justify-content-around">
 	<div id="productos-venta" class="col-12 col-xl-11 ">
 		<br>
+		<p>En nuestro local comercial disponemos de tirantería de primera calidad, en varias medidas. Contamos también con machimbre de primera calidad, para la construcción de techos, entrepisos, etc.</p>
+		<p>A continuación puede ver todas las medidas con las que trabajamos.</p><br>
 
-		<div *ngIf="productos.length > 0 ; then thenBlock else elseBlock"></div>
-			
-		<ng-template #thenBlock>
-			<p>En nuestro local comercial disponemos de tirantería de primera calidad, en varias medidas. Contamos también con machimbre de primera calidad, para la construcción de techos, entrepisos, etc.</p>
-			<p>A continuación puede ver imágenes de los materias de que disponemos, y luego todas las medidas en stock.</p><br>
-
-
-			<!--<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-			<div class="container2">
-				<img src="../../assets/images/cocina_index.jpg" alt="" class="image2">
-			</div>
-
-			-->
-			<div *ngFor="let item of productos" class="container2">
-				<img src="{{ item }}" class="image2">
-					
-			</div>
-
-			<br>
-		
-			<h3>Medidas disponibles</h3>
-			<div class="col-12 col-md-6 tabla">
-					<table class="table table-striped">
-							<thead>
-							<tr>
-								<th>Tirantería</th>
-								
-							</tr>
-							</thead>
-							<tbody>
-							<tr *ngFor="let medidaT of medidasTirantes">
-								<th>{{ medidaT }}</th>
-								
-							</tr>
-							
-							
-							</tbody>
-						</table>	
-			</div>
-
-			<div class="col-12 col-md-6 tabla">
-					<table class="table table-striped">
-							<thead>
-							<tr>
-								<th>Machimbre</th>
-								
-							</tr>
-							</thead>
-							<tbody>
-								<tr *ngFor="let medidaM of medidasMachimbre">
-									<th>{{ medidaM }}</th>
-											
-								</tr>
-							
-							</tbody>
-						</table>	
-			</div>
-		</ng-template>
-
-		<ng-template #elseBlock>
-			<p>No disponemos de artículos de tirantería y machimbre en nuestra web en este momento. <br> <br> Te invitamos a mirar las galerías de productos o a ponerte en <a routerLink="/contacto" (click)="click()">contacto</a> con nosotros.</p>
-		</ng-template>
-		
+		<div class="col-6 d-inline-block">
+			<div class="bg-text">Tirantes</div>
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">First item</li>
+				<li class="list-group-item">Second item</li>
+				<li class="list-group-item">Third item</li>
+				<li class="list-group-item">Fourth item</li>
+			  </ul>
+		</div>
+		<div class="col-6 d-inline-block">
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">First item</li>
+				<li class="list-group-item">Second item</li>
+				<li class="list-group-item">Third item</li>
+				<li class="list-group-item">Fourth item</li>
+			  </ul>
+		</div>
 			
 		
-
-		<!--
-		<div *ngIf="productos.length > 0 ; then thenBlock else elseBlock"></div>
-			
-		<ng-template #thenBlock>
-			<br>
- 			<p>Los siguientes artículos están disponibles para la venta en nuestro negocio. Para realizar consultas, puede hacerlo a través de nuestros canales de <a id="contacto" routerLink="/contacto" (click)="click()">contacto</a>.</p>
-			<br>
-			<div *ngFor="let item of productos" class="container">
-				<img src="{{ item[2] }}" class="image-venta">
-				<div class="overlay">
-					<h3 class="text">{{ item[1] }}</h3>
-				</div>
-			</div>
-		</ng-template>
-
-		<ng-template #elseBlock>
-			<p class="div-texto">No disponemos de articulos para la venta en este momento. <br> <br> Te invitamos a mirar las galerías de productos de las demás categorias o a ponerte en <a routerLink="/contacto" (click)="click()">contacto</a> con nosotros.</p>
-		</ng-template>
-		
-
--->
-	
 
 	</div>
 

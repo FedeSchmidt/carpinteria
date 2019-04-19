@@ -9,15 +9,28 @@
 				{{f}}
 			</div>
 			
-			<div *ngFor="let f1 of data[f]" class="col-4 d-inline-block div-imagen">
+			<div *ngFor="let f1 of data[f]" class="container2">
 				
-					<img src="{{f1}}" alt="" class="d-inline-block img-fluid">
+					<img src="{{f1}}" alt="" class="image2">
 				
 			</div>
 		 </div>
 
 
 	</div>
+
+	<div id="modalVenta" class="modal">
+
+		<i class="fas fa-times close"></i>
+	  
+		<i id="btn_izquierda" class="fas fa-chevron-left flecha" (click)="hallarAnterior()"></i>
+	  
+		<i id="btn_derecha" class="fas fa-chevron-right flecha" (click)="hallarSiguiente()"></i>
+	  
+		<img class="modal-content" id="img01">
+	  
+		<div id="caption"></div>
+</div>
 </div>
 		
 
