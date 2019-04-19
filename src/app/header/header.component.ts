@@ -2,30 +2,24 @@ import { Component, OnInit } from '@angular/core';
 import $ from 'jquery';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+	selector: 'app-header',
+	templateUrl: './header.component.html',
+	styleUrls: [ './header.component.css' ]
 })
 export class HeaderComponent implements OnInit {
+	constructor() {}
 
-  constructor() { }
+	ngOnInit() {}
 
-  ngOnInit() {
-  }
+	click(id) {
+		var idBoton = '#' + id;
 
+		$('#inicio').css('textDecoration', 'none');
+		$('#instrumentos').css('textDecoration', 'none');
+		$('#venta').css('textDecoration', 'none');
+		$('#contacto').css('textDecoration', 'none');
+		$('#galeria').css('textDecoration', 'none');
 
-click(id){
-
-  	var idBoton = "#"+ id;
-
-  	$("#inicio").css("textDecoration", "none");
-  	$("#guitarras").css("textDecoration", "none");
-  	$("#venta").css("textDecoration", "none");
-  	$("#contacto").css("textDecoration", "none");
-    $("#galeria").css("textDecoration", "none");
-
-  	$(idBoton).css("textDecoration", "underline");
-
-  
-  }
+		$(idBoton).css('textDecoration', 'underline');
+	}
 }
