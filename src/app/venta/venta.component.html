@@ -4,39 +4,46 @@
 		<p>En nuestro local comercial disponemos de tirantería de primera calidad, en varias medidas. Contamos también con machimbre de primera calidad, para la construcción de techos, entrepisos, etc.</p>
 		<p>A continuación puede ver todas las medidas con las que trabajamos.</p><br>
 
-		<div class="col-6 d-inline-block">
+		<div class="col-3 d-inline-block div-info">
 			<div class="bg-text">Tirantes</div>
-			<ul class="list-group list-group-flush">
-				<li class="list-group-item">First item</li>
-				<li class="list-group-item">Second item</li>
-				<li class="list-group-item">Third item</li>
-				<li class="list-group-item">Fourth item</li>
-			  </ul>
+			<li type="none" *ngFor="let item of medidasTirantes">
+				{{item}}
+			</li>		
 		</div>
-		<div class="col-6 d-inline-block">
-			<ul class="list-group list-group-flush">
-				<li class="list-group-item">First item</li>
-				<li class="list-group-item">Second item</li>
-				<li class="list-group-item">Third item</li>
-				<li class="list-group-item">Fourth item</li>
-			  </ul>
-		</div>
-			
 		
+		<div class="col-3 d-inline-block div-info">
+			<div class="bg-text">Machimbre</div>
+			<li type="none" *ngFor="let item of medidasMachimbre">
+				{{item}}
+			</li>		
+		</div>
 
+		<div class="col-3 d-inline-block div-info">
+			<div class="bg-text">Vigas</div>
+			<li type="none" *ngFor="let item of medidasVigas">
+				{{item}}
+			</li>
+		</div>
+
+		<div class="col-3 d-inline-block div-info">
+			<div class="bg-text">Otros productos</div>
+			<li type="none" *ngFor="let item of otrosProductos">
+				{{item}}
+			</li>		
+		</div>	
+					
 	</div>
 
-	<div id="modalVenta" class="modal">
-
-			<i class="fas fa-times close"></i>
-		  
-			<i id="btn_izquierda" class="fas fa-chevron-left flecha" (click)="hallarAnterior()"></i>
-		  
-			<i id="btn_derecha" class="fas fa-chevron-right flecha" (click)="hallarSiguiente()"></i>
-		  
-			<img class="modal-content" id="img01">
-		  
-			<div id="caption"></div>
+	<div class="col-12 col-xl-11 mt-3">
+		<div class="container2">
+			<img src="{{imagenTirantes}}" alt="" class="image2">
+		</div>
+		<div class="container2">
+			<img src="{{imagenMachimbre}}" alt="" class="image2">
+		</div>
+		<div class="container2">
+			<img src="{{imagenMachimbre}}" alt="" class="image2">
+		</div>
 	</div>
 
 </div>
