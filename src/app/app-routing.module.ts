@@ -6,6 +6,7 @@ import { VentaComponent } from './venta/venta.component';
 import { GuitarrasComponent } from './guitarras/guitarras.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { CategoriaProductoComponent } from './categoria-producto/categoria-producto.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/index', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
 	{ path: 'venta', component: VentaComponent },
 	{ path: 'instrumentos', component: GuitarrasComponent },
 	{ path: 'galeria', component: CategoriaProductoComponent },
-	{ path: 'galeria/:id', component: GaleriaComponent }
+	{ path: 'galeria/:id', component: GaleriaComponent },
+	{ path: '**', component: ErrorPageComponent }
 ];
 
 @NgModule({

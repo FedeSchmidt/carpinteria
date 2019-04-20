@@ -13,6 +13,7 @@ import { VentaComponent } from './venta/venta.component';
 import { GuitarrasComponent } from './guitarras/guitarras.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { CategoriaProductoComponent } from './categoria-producto/categoria-producto.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
 	declarations: [
@@ -24,7 +25,8 @@ import { CategoriaProductoComponent } from './categoria-producto/categoria-produ
 		VentaComponent,
 		GuitarrasComponent,
 		GaleriaComponent,
-		CategoriaProductoComponent
+		CategoriaProductoComponent,
+		ErrorPageComponent
 	],
 	imports: [ BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule, AppRoutingModule ],
 	providers: [ Title ],
