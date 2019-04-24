@@ -16,7 +16,12 @@ export class GuitarrasComponent implements OnInit {
 	constructor(private titleService: Title) {}
 
 	ngOnInit() {
-		$('#guitarras').css('textDecoration', 'underline');
+		$('#inicio').css('textDecoration', 'none');
+		$('#instrumentos').css('textDecoration', 'underline');
+		$('#venta').css('textDecoration', 'none');
+		$('#contacto').css('textDecoration', 'none');
+		$('#galeria').css('textDecoration', 'none');
+
 		this.titleService.setTitle('Carpinteria Schmidt | Instrumentos Musicales');
 
 		this.categorias = Object.keys(Datos);

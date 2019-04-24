@@ -1,6 +1,7 @@
 body {
 	background-color: #fffaf4;
 	font-family: 'Lato', sans-serif;
+	text-align: justify;
 }
 
 /*--------------- GALERIA ----------------*/
@@ -37,9 +38,6 @@ body {
 
 .datos {
 	margin-top: 15px;
-
-	font-family: 'Montserrat', sans-serif;
-	text-align: justify;
 }
 
 @media (min-width: 1200px) {

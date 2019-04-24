@@ -19,12 +19,16 @@ export class VentaComponent implements OnInit {
 	public imagenTirantes: String;
 	public imagenMachimbre: String;
 
-	constructor(private comp: HeaderComponent, private titleService: Title) {}
+	constructor(private titleService: Title) {}
 
 	ngOnInit() {
 		this.titleService.setTitle('Carpinteria Schmidt | Tirantería y Machimbre');
 
+		$('#inicio').css('textDecoration', 'none');
+		$('#instrumentos').css('textDecoration', 'none');
 		$('#venta').css('textDecoration', 'underline');
+		$('#contacto').css('textDecoration', 'none');
+		$('#galeria').css('textDecoration', 'none');
 
 		const data = JSON.stringify(Datos);
 		const datos = JSON.parse(data);
@@ -37,10 +41,6 @@ export class VentaComponent implements OnInit {
 		this.otrosProductos = datos['venta-otros'][0].nombres;
 		this.imagenMachimbre = datos['machimbre'][0].imagenes[0];
 		this.imagenTirantes = datos['tirantes'][0].imagenes[0];
-	}
-
-	click() {
-		this.comp.click('contacto');
 	}
 
 	ngAfterViewInit() {

@@ -1,9 +1,4 @@
-/*------------  INICIO  ---------------*/
-.div-texto {
-	font-family: "Lato", sans-serif;
-	text-align: justify;
-}
-.div-texto h3 {
+h3 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }

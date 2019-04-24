@@ -1,8 +1,6 @@
 
 <div id="container">
 
-		
-
 			<div *ngFor="let item of inicio">
 			<br>
 			
@@ -10,7 +8,7 @@
 
 			<ng-template #thenBlock>
 				<div class="row justify-content-center align-items-center">
-					<div class="col-12 col-lg-6 col-xl-4  order-lg-2 div-texto">
+					<div class="col-12 col-lg-6 col-xl-4  order-lg-2">
 						<h3>{{ item[0] }}</h3>
 						<p>{{ item[1] }}</p>
 					</div>
@@ -22,7 +20,7 @@
 			<ng-template #elseBlock>
 
 				<div class="row justify-content-center align-items-center oscura pt-4 pb-4">
-					<div class="col-12 col-xl-8 div-texto">
+					<div class="col-12 col-xl-8">
 							<h3>{{ item[0] }}</h3>
 							<p>{{ item[1] }}</p>
 					</div>

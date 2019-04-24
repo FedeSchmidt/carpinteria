@@ -1,6 +1,7 @@
 h1 {
 	font-size: 200px;
 }
+
 .error-container {
 	text-align: center;
 	height: 540px;
@@ -9,6 +10,5 @@ h1 {
 .div-texto {
 	position: relative;
 	top: 50%;
-
 	transform: translateY(-50%);
 }

@@ -1,181 +1,90 @@
-
-.datos{
- margin:0 ;
-  
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
+h3 {
+	font-family: 'Open Sans', sans-serif;
 }
 
-.datos h3{
-  margin-top:15px;
-  margin-bottom:15px;
-}
-
-.datos p{
-  margin:0;
-}
-
-
-#botonVolver{
-	background-color: #dbc2a0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  border-width: 1px;
-  border-color: #fffaf4;
-
-}
-
-#botonVolver:focus, #botonVolver:active{
-  outline: none !important;
-  box-shadow: none;
-}
-
-
-#productos{
-  display: flex;
-}
-.contenedor {
-  position: relative;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 2px;
-}
-
-.image:hover,
-.image:focus {
-  cursor: pointer;
-}
-
-
-#btnVolver{
+#botonVolver {
 	background-color: #dbc2a0;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  float: right;
+	border-width: 1px;
+	border-color: #fffaf4;
 }
 
+#botonVolver:focus,
+#botonVolver:active {
+	outline: none !important;
+	box-shadow: none;
+}
 
-
-
-
-
-/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  /*width: 60%;*/
-  height: 85%;
-  width: auto;
-  top:50%;
-  transform: translateY(-50%);
+	margin: auto;
+	display: block;
+	/*width: 60%;*/
+	height: 85%;
+	width: auto;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
-
-
-
-/* The Close Button */
 .close {
-  position: absolute;
-  top: 20px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-  padding: 20px;
+	position: absolute;
+	top: 20px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+	padding: 20px;
 }
 
-.flecha{
-  position: absolute;
-  top: 50%;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-  padding: 20px;
+.flecha {
+	position: absolute;
+	top: 50%;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+	padding: 20px;
 }
 
-#btn_izquierda{
-  left: 35px;
+#btn_izquierda {
+	left: 35px;
 }
 
-#btn_derecha{
-
-  right: 35px;
-  
+#btn_derecha {
+	right: 35px;
 }
 
-.flecha:hover, 
+.flecha:hover,
 .flecha:focus,
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
 }
 
-
-.relleno{
-  width: 100%;
-  height: auto;
-  margin-bottom: 210px;
-  display: block;
+@media (min-width: 992px) and (max-width: 1200px) {
+	.modal-content {
+		height: 80%;
+	}
 }
 
-
-@media (min-width: 992px) and (max-width: 1200px){
-  .modal-content{
-    height: 80%;
-  }
-  
+.relleno {
+	width: 100%;
+	height: auto;
+	margin-bottom: 210px;
+	display: block;
 }
-
-@media (min-width: 1200px){
-  .contenedor{
-    width: 25%;
-    display: inline-block;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px){
-  .contenedor{
-    width: 50%;
-    display: inline-block;
-  }
-  
-}
-
-@media (max-width: 992px){
-
-  .contenedor{
-    margin-bottom: 6px;
-    max-width: 992px;
-   
-    }
-     
-}
-
-
-
-

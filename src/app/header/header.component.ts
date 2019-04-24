@@ -11,15 +11,15 @@ export class HeaderComponent implements OnInit {
 
 	ngOnInit() {}
 
-	click(id) {
-		var idBoton = '#' + id;
+	// click(id) {
+	// 	var idBoton = '#' + id;
 
-		$('#inicio').css('textDecoration', 'none');
-		$('#instrumentos').css('textDecoration', 'none');
-		$('#venta').css('textDecoration', 'none');
-		$('#contacto').css('textDecoration', 'none');
-		$('#galeria').css('textDecoration', 'none');
+	// 	$('#inicio').css('textDecoration', 'none');
+	// 	$('#instrumentos').css('textDecoration', 'none');
+	// 	$('#venta').css('textDecoration', 'none');
+	// 	$('#contacto').css('textDecoration', 'none');
+	// 	$('#galeria').css('textDecoration', 'none');
 
-		$(idBoton).css('textDecoration', 'underline');
-	}
+	// 	$(idBoton).css('textDecoration', 'underline');
+	// }
 }

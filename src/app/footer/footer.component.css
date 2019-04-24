@@ -1,7 +1,3 @@
-.div-datos {
-	font-weight: bold;
-}
-
 p {
 	font-weight: bold;
 }
@@ -11,8 +7,6 @@ a {
 }
 
 .row-footer {
-	font-family: "Lato", sans-serif;
-
 	background-color: #e6cdae;
 	height: 170px;
 	bottom: 0%;
@@ -21,15 +15,15 @@ a {
 	padding-bottom: 0;
 }
 
-.div-datos .volverArriba {
-	float: right;
-}
-
 .div-datos .email {
 	display: inline-block;
 }
 
-@media (max-width: 800px) {
+.div-datos .volverArriba {
+	float: right;
+}
+
+@media (max-width: 767px) {
 	.div-datos {
 		text-align: center;
 	}

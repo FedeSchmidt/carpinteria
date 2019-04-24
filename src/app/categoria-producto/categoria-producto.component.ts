@@ -16,13 +16,17 @@ export class CategoriaProductoComponent implements OnInit {
 	public datos = JSON.parse(this.data);
 	filtroActivo;
 
-	constructor(private comp: HeaderComponent, private titleService: Title) {
+	constructor(private titleService: Title) {
 		this.productos = [];
 
 		this.cargarProductos(this.datos);
 	}
 
 	ngOnInit() {
+		$('#inicio').css('textDecoration', 'none');
+		$('#instrumentos').css('textDecoration', 'none');
+		$('#venta').css('textDecoration', 'none');
+		$('#contacto').css('textDecoration', 'none');
 		$('#galeria').css('textDecoration', 'underline');
 
 		this.titleService.setTitle('Carpinteria Schmidt | Galeria');
@@ -82,10 +86,6 @@ export class CategoriaProductoComponent implements OnInit {
 				}
 			}
 		}
-	}
-
-	click() {
-		this.comp.click('contacto');
 	}
 
 	clickDropdown() {

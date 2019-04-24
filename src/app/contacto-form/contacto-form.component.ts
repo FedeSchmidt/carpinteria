@@ -28,7 +28,12 @@ export class ContactoFormComponent implements OnInit {
 	}
 
 	ngOnInit() {
+		$('#inicio').css('textDecoration', 'none');
+		$('#instrumentos').css('textDecoration', 'none');
+		$('#venta').css('textDecoration', 'none');
 		$('#contacto').css('textDecoration', 'underline');
+		$('#galeria').css('textDecoration', 'none');
+
 		this.titleService.setTitle('Carpinteria Schmidt | Contacto');
 
 		this.form = this.formBuilder.group({

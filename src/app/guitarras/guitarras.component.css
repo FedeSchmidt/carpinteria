@@ -1,25 +1,18 @@
-.jumbo-gui {
-	position: relative;
-	float: left;
-	/* top: 50%;
-
-	transform: translateY(-50%); */
-
-	text-align: center;
-}
-
-.div-imagen {
-	margin: 0;
-	padding: 2px;
-}
 .bg-text {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 25px;
+
 	margin: 10px 0;
 	padding-right: 0;
 	padding-left: 0;
-	text-align: center;
-	text-transform: capitalize;
-	font-size: 30px;
-	font-style: italic;
+}
+.container2 {
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
 }
 
 .image2 {
@@ -45,7 +38,7 @@
 	transform: scale(0.97);
 }
 
-/* The Modal (background) */
+/*-------------- MODAL -------------------*/
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
@@ -59,7 +52,6 @@
 	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
 .modal-content {
 	margin: auto;
 	display: block;
@@ -69,29 +61,6 @@
 	transform: translateY(-50%);
 }
 
-.bg-image {
-	/*background-image: url('../../assets/images/cocina_index.jpg');*/
-	background: rgba(204, 204, 204, 0.5);
-}
-
-.imagen-guitarra {
-	width: 100%;
-	height: auto;
-}
-
-#relleno {
-	height: auto;
-	margin-bottom: 250px;
-}
-
-.container2 {
-	position: relative;
-	overflow: hidden;
-	padding: 0;
-	margin: 0;
-}
-
-/* The Close Button */
 .close {
 	position: absolute;
 	top: 20px;

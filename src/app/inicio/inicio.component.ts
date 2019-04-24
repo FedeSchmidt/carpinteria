@@ -15,6 +15,11 @@ export class InicioComponent implements OnInit {
 	ngOnInit() {
 		this.titleService.setTitle('Carpinteria Schmidt');
 
+		$('#instrumentos').css('textDecoration', 'none');
+		$('#venta').css('textDecoration', 'none');
+		$('#contacto').css('textDecoration', 'none');
+		$('#galeria').css('textDecoration', 'none');
+
 		$('#inicio').css('textDecoration', 'underline');
 
 		this.inicio = [];
