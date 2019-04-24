@@ -1,91 +1,72 @@
-@font-face {
-  font-family: audrey;
-  src: url(assets/fonts/Audrey-Normal.otf) format("opentype");
-}
-
-body { 
-
-  background-color: #fffaf4;
+body {
+	background-color: #fffaf4;
+	font-family: 'Lato', sans-serif;
 }
 
 /*--------------- GALERIA ----------------*/
 
-#productos{
-  display: flex;
+#productos {
+	display: flex;
 }
 .contenedor {
-  position: relative;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 3px;
-  -moz-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 3px;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
 }
-
 
 .image:hover,
 .image:focus {
-  cursor: pointer;
-  -moz-transform: scale(0.97);
-  -webkit-transform: scale(0.97);
-  transform: scale(0.97);
+	cursor: pointer;
+	-moz-transform: scale(0.97);
+	-webkit-transform: scale(0.97);
+	transform: scale(0.97);
 }
 
+.datos {
+	margin-top: 15px;
 
-.datos{
-  margin-top: 15px;
-  
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
 }
 
-
-@media (min-width: 1200px){
-  .contenedor{
-    width: 25%;
-    display: inline-block;
-  }
+@media (min-width: 1200px) {
+	.contenedor {
+		width: 25%;
+		display: inline-block;
+	}
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
-  .contenedor{
-    width: 50%;
-    display: inline-block;
-  }
-  
+@media (min-width: 992px) and (max-width: 1200px) {
+	.contenedor {
+		width: 50%;
+		display: inline-block;
+	}
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
+	.contenedor {
+		margin-bottom: 6px;
+		max-width: 992px;
+	}
 
-  .contenedor{
-    margin-bottom: 6px;
-    max-width: 992px;
-   
-    }
-    
-    
-  .image:hover,
-  .image:focus {
-    cursor: none;
-    -moz-transform: none;
-    -webkit-transform: none;
-    transform: none;
-  }
+	.image:hover,
+	.image:focus {
+		cursor: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
-
-
-
-
-
-
-
