@@ -13,7 +13,7 @@ export class InicioComponent implements OnInit {
 	constructor(private titleService: Title) {}
 
 	ngOnInit() {
-		this.titleService.setTitle('Carpinteria Schmidt');
+		this.titleService.setTitle('Carpinteria de Omar Schmidt');
 
 		$('#instrumentos').css('textDecoration', 'none');
 		$('#venta').css('textDecoration', 'none');

@@ -18,6 +18,7 @@ export class VentaComponent implements OnInit {
 	public otrosProductos: Array<String>;
 	public imagenTirantes: String;
 	public imagenMachimbre: String;
+	public imagenTablas: String;
 
 	constructor(private titleService: Title) {}
 
@@ -41,6 +42,7 @@ export class VentaComponent implements OnInit {
 		this.otrosProductos = datos['venta-otros'][0].nombres;
 		this.imagenMachimbre = datos['machimbre'][0].imagenes[0];
 		this.imagenTirantes = datos['tirantes'][0].imagenes[0];
+		this.imagenTablas = datos['tirantes'][0].imagenes[1];
 	}
 
 	ngAfterViewInit() {

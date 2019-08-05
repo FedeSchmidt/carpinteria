@@ -315,7 +315,7 @@
 	],
 	"tirantes": [
 		{
-			"imagenes": [ "../../assets/images/1/m110.jpg" ],
+			"imagenes": [ "../../assets/images/tirantes.jpg", "../../assets/images/tablas.jpg" ],
 			"medidas": [
 				"2 x 6 x 3,00",
 				"2 x 6 x 3,60",
@@ -338,7 +338,7 @@
 	],
 	"machimbre": [
 		{
-			"imagenes": [ "../../assets/images/1/m19.jpg" ],
+			"imagenes": [ "../../assets/images/machimbre_index.jpg" ],
 			"medidas": [
 				"1/2 x 4 x 3,05",
 				"1/2 x 4 x 3,60",
